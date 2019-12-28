@@ -1,27 +1,23 @@
 {
   "name": "ruuvi2mqtt",
-  "version": "0.0.0",
-  "description": "A RuuviTag -> MQTT bridge supporting Home Assistant MQTT discovery",
+  "version": "2.0.0",
+  "description": "A RuuviTag -> MQTT bridge",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ppetru/ruuvi2mqtt.git"
+    "url": "git+ssh://git@github.com/iivorait/ruuvi2mqtt.git"
   },
-  "bugs": {
-    "url": "https://github.com/ppetru/ruuvi2mqtt/issues"
-  },
-  "homepage": "https://github.com/ppetru/ruuvi2mqtt#readme",
+  "homepage": "https://github.com/iivorait/ruuvi2mqtt",
   "keywords": [
     "ruuvitag",
     "mqtt"
   ],
-  "author": "Petru Paler (petru@paler.net)",
+  "author": "Iivo Raitahila / Petru Paler / Gordon Williams",
   "license": "MPL-2.0",
   "dependencies": {
     "binary-parser": "^1.3.2",
-    "bleno": "^0.4.1",
     "mqtt": "^2.18.8",
-    "noble": "^1.7.0"
+    "noble": "^1.9.1"
   }
 }

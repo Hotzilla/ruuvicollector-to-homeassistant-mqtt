@@ -1,8 +1,8 @@
 {
   "// If a device's address is here, it'll be given a human-readable name":0,
   "known_devices" : {
-    "c0:52:3f:50:42:c9" : "office",
-    "fc:a6:c6:04:db:79" : "hall_down",
+    "c3:c0:f5:9e:cb:f4" : "office",
+    "e7:a0:ea:15:f9:4d" : "hall_down",
     "cf:71:de:4d:f8:48" : "hall_up"
   },
 
@@ -14,16 +14,12 @@
   "// Setting a value of 0 disables the exit/restart.":0,
   "ble_timeout": 20,
 
-  "// We can add our own custom advertising UUIDs here with names to help decode them":0, 
-  "advertised_services" : {
-    "ffff" : {
-      "name" : "level"
-    }
-  },
-
-  "mqtt_host": "mqtt://zippy.lan",
-  "//mqtt_options": {
-    "username": "user",
-    "password": "pass"
+  "mqtt_host": "wss://tzrng0.messaging.internetofthings.ibmcloud.com:443",
+  "mqtt_topic": "iot-2/evt/status/fmt/json",
+  "mqtt_data_container": "d",
+  "mqtt_options": {
+    "username": "use-token-auth",
+    "password": "OGxH&DMpj8Z&xV05)5",
+    "clientId": "d:tzrng0:Ruuvi:palvelinkoe"
   }
 }
