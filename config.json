@@ -14,12 +14,10 @@
   "// Setting a value of 0 disables the exit/restart.":0,
   "ble_timeout": 20,
 
-  "mqtt_host": "wss://tzrng0.messaging.internetofthings.ibmcloud.com:443",
-  "mqtt_topic": "iot-2/evt/status/fmt/json",
-  "mqtt_data_container": "d",
+  "mqtt_host": "mqtt://homeassistant.local:1883",
   "mqtt_options": {
-    "username": "use-token-auth",
-    "password": "OGxH&DMpj8Z&xV05)5",
-    "clientId": "d:tzrng0:Ruuvi:palvelinkoe"
+    "username": "username",
+    "password": "password",
+    "clientId": "clientid"
   }
 }
