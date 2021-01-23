@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-01-23T21:55:46.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.7" etag="SKoTfNAtZQFS7Uk4dniy" type="github"><diagram id="wwodPOIIgaKYYOEBNDiN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-23T22:02:17.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="PQbHt_38C6U7BCbQLBxg" version="14.2.7" type="github">
+  <diagram id="wwodPOIIgaKYYOEBNDiN" name="Page-1">
+    <mxGraphModel dx="837" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-19" value="&amp;nbsp; &amp;nbsp;Main Server&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="415" y="93" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-2" value="Tag1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-3" value="Tag2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-4" value="Tag3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-5" value="Raspberry Pi" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=10;entryPerimeter=0;" edge="1" parent="1" source="LuNz_xKo_ZsOx4zv4Jd3-2" target="LuNz_xKo_ZsOx4zv4Jd3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="310" as="sourcePoint" />
+            <mxPoint x="280" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LuNz_xKo_ZsOx4zv4Jd3-3" target="LuNz_xKo_ZsOx4zv4Jd3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="120" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-9" value="" style="endArrow=classic;html=1;exitX=0.994;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LuNz_xKo_ZsOx4zv4Jd3-4" target="LuNz_xKo_ZsOx4zv4Jd3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="220" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-10" value="MQTT Broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="157.5" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-11" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=120;exitDy=20;exitPerimeter=0;" edge="1" parent="1" source="LuNz_xKo_ZsOx4zv4Jd3-5" target="LuNz_xKo_ZsOx4zv4Jd3-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-18" value="network" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LuNz_xKo_ZsOx4zv4Jd3-11">
+          <mxGeometry x="-0.2246" y="2" relative="1" as="geometry">
+            <mxPoint x="-5.17" y="-10.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-13" value="Home Assistant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="141.25" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LuNz_xKo_ZsOx4zv4Jd3-10" target="LuNz_xKo_ZsOx4zv4Jd3-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-20" value="Raspberry Pi" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-21" value="Tag1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-22" value="Tag2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-25" value="" style="endArrow=classic;html=1;entryX=0.088;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.935;exitY=0.215;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LuNz_xKo_ZsOx4zv4Jd3-21" target="LuNz_xKo_ZsOx4zv4Jd3-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="sourcePoint" />
+            <mxPoint x="270" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuNz_xKo_ZsOx4zv4Jd3-26" value="" style="endArrow=classic;html=1;entryX=0.272;entryY=1.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="LuNz_xKo_ZsOx4zv4Jd3-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="370" as="sourcePoint" />
+            <mxPoint x="325" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
