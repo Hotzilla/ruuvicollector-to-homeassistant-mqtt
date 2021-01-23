@@ -14,6 +14,9 @@ This project is merged from https://github.com/ppetru/ruuvi2mqtt and https://git
 prerequisites:
 - MQTT broker connected to HA (if you have hass.io, you can install mosquitto mqtt broker https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md)
 
+
+In your raspberry pi, perform following commands:
+
 ```console
 sudo apt-get install git-core nodejs npm build-essential mosquitto mosquitto-clients bluetooth bluez libbluetooth-dev libudev-dev
 sudo npm install -g n
