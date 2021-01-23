@@ -1,5 +1,7 @@
 # RuuviTag to HomeAssistant MQTT with auto-discovery
 
+![alt text](https://github.com/hotzilla/ruuvicollector-to-homeassistant-mqtt/blob/master/architecture.png?raw=true)
+
 This project resolves problem that if you have Raspberry PI that handles BLE to ruuvis, and the homeassistant is running on different server, that doesnt have bluetooth.
 BLE is converted to MQTT, so you can move the realtime data to anywhere through the network, as efficient mqtt packets.
 
